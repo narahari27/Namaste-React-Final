@@ -1,0 +1,84 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    padding: 5px;
+}
+.nav-items ul{
+    display: flex;
+    list-style: none;
+    font-size: 24px;
+    
+}
+.nav-items ul li{
+    padding: 10px;
+    margin: 10px;
+}
+.res-card{
+    /* height: 450px; */
+    width: 250px;
+    border: 1px solid #e6e6e6;
+    padding: 10px 8px;
+    margin: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.res-card:hover{
+    background-color: #d5d2d2;
+}
+.search{
+    padding: 10px;
+}
+.res-logo{
+    width: 100%;
+    border-radius: 10px;
+    height: 210px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 5px 8px;
+}
+.filter button:hover{
+    background: red;
+    color: #fff;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    height: 200px;
+    width: 200px;
+    /* display: flex; */
+    background-color: #e6e6e6;
+    border-radius: 6px;
+    margin: 5px;
+    /* flex-wrap: wrap; */
+}
+.login-btn{
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.searchBlock{
+    display: flex;
+}
+.user-card{
+    border: 1px solid #e6e6e6;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 200px;
+}
