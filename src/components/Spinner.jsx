@@ -1,7 +1,7 @@
 const spinner = () =>{
     return(
         <div className="lodu">
-            <span class="loader"></span>
+            <span className="loader"></span>
         </div>
         
 
